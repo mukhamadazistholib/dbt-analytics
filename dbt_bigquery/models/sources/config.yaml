@@ -2,10 +2,10 @@ version: 2
 
 ## models sources
 sources:
-  - name: playground_us
+  - name: taxi_trips
     tables:
-      - name: source_chicago_taxi_trips
-      
+      - name: raw_taxi_trips
+
 ## define models
 models:
   - name: taxi_trips
