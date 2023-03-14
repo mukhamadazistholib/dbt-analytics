@@ -6,11 +6,6 @@ Try running the following commands:
 - dbt run
 - dbt test
 
-### Documentation
-![img]()
-
-### Contributor
-mukhamadazistholib278[at]gmail[dot]com
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)

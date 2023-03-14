@@ -1,0 +1,36 @@
+version: 2
+
+## models sources
+sources:
+  - name: playground_us
+    tables:
+      - name: source_chicago_taxi_trips
+      
+## define models
+models:
+  - name: taxi_trips
+    columns: 
+      - name: unique_key
+        tests:
+          - unique
+          - not_null
+  
+  - name: raw_company_yearly_income
+    columns: 
+      - name: company
+        tests: 
+          - not_null
+
+  - name: dim_company
+    columns: 
+      - name: company
+        tests: 
+          - unique
+
+  - name: dim_payment_type
+    columns: 
+      - name: payment_type
+        tests: 
+          - unique
+
+      
